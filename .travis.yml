@@ -1,7 +1,7 @@
 sudo: false
 language: ruby
 before_install:
-- echo 'before install'
+- ruby ./setup.rb $@
 script:
 - echo 'script'
 - echo 0
