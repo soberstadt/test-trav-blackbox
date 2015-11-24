@@ -1,4 +1,4 @@
-sudo: false
+sudo: require
 language: ruby
 before_install:
 - ruby ./setup.rb $@
